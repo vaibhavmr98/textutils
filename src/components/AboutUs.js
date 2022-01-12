@@ -1,19 +1,10 @@
-import React,{useState} from 'react'
-
-
-
+import React from 'react'
 
 export const AboutUs = (props) => {
 
     // here in this we have create the change theme mode functionality using the React useState.
     //the code is self explainary ,where we have created the state calles "prop.mode === 'light' ? lightMode : darkMode".
-        // in this we have default State value as js object having ligh mode default style. 
-    const [changeThemeMode, changeThemeModeFnc] = useState({
-        color : '#000',
-        background : '#fff',
-       // border : '0.5px solid #000'
-    });
-
+        // in this we have default State value as js object having ligh mode default style.
     const lightMode = {
         color : '#000',
         background : '#fff',
