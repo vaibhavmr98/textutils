@@ -101,7 +101,7 @@ export const TextForm = (props) => {
 
     return (
         <>
-        <div>
+        <div className="mt-2">
             <h2>
                 {props.heading}
             </h2>
